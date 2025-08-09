@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignNest | Interior Design Showcase</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+   <link rel="stylesheet" href="styyle.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="home2.mp4".mp4" type="video/mp4">
+      </video>
+    <!-- Header -
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-home"></i>Design<span>Nest</span>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#designs">Design Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Design Your Perfect Space</h1>
+            <p>Discover beautiful interior designs that transform houses into homes. Explore our curated collection of styles, from modern minimalist to cozy traditional.</p>
+            <a href="#portfolio" class="btn">Explore Designs</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Crafting Beautiful Spaces</h2>
+                    <p>At DesignNest, we believe that a well-designed space can transform your daily life. Our curated collection showcases the finest interior designs that blend aesthetics with functionality.</p>
+                    <p>Each design in our portfolio represents a unique approach to living spaces, incorporating modern trends, timeless elements, and personalized touches that make a house truly feel like home.</p>
+                    <a href="#portfolio" class="btn">View Our Work</a>
+                </div>
+                <div class="about-img" data-aos="fade-left">
+                    <img src="studio3.jpg" alt="Interior Design Studio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <h2 class="section-title">Featured Designs</h2>
+                <p class="portfolio-description">Browse our collection of meticulously crafted interior designs across various styles and spaces. Each project is uniquely designed to balance aesthetics, functionality, and client personality.</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Styles</button>
+                <button class="filter-btn" data-filter="modern">Modern</button>
+                <button class="filter-btn" data-filter="minimalist">Minimalist</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+                <button class="filter-btn" data-filter="scandinavian">Scandinavian</button>
+                <button class="filter-btn" data-filter="traditional">Traditional</button>
+                <button class="filter-btn" data-filter="bohemian">Bohemian</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="modern" data-aos="fade-up">
+                    <img src="living.jpg" alt="Modern Living Room">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Modern</span>
+                            <span class="portfolio-tag">Living Room</span>
+                        </div>
+                        <h3>Modern Living Room</h3>
+                        <p class="portfolio-details">Contemporary design with clean lines, bold accents, and innovative lighting solutions.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>42 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="minimalist" data-aos="fade-up" data-aos-delay="100">
+                    <img src="kitchen.jpg" alt="Minimalist Kitchen">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Minimalist</span>
+                            <span class="portfolio-tag">Kitchen</span>
+                        </div>
+                        <h3>Minimalist Kitchen</h3>
+                        <p class="portfolio-details">Clean and functional design with essential elements, focusing on form and function.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>28 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="industrial" data-aos="fade-up" data-aos-delay="200">
+                    <img src="industrial.jpg" alt="Industrial Loft">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Industrial</span>
+                            <span class="portfolio-tag">Loft</span>
+                        </div>
+                        <h3>Industrial Loft</h3>
+                        <p class="portfolio-details">Raw materials and exposed architectural elements create an authentic urban atmosphere.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>65 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="scandinavian" data-aos="fade-up" data-aos-delay="300">
+                    <img src="bedroom.jpg" alt="Scandinavian Bedroom">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Scandinavian</span>
+                            <span class="portfolio-tag">Bedroom</span>
+                        </div>
+                        <h3>Scandinavian Bedroom</h3>
+                        <p class="portfolio-details">Light, airy design with natural materials and a focus on comfort and simplicity.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>22 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="modern" data-aos="fade-up" data-aos-delay="400">
+                    <img src="office.jpg" alt="Modern Home Office">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Modern</span>
+                            <span class="portfolio-tag">Office</span>
+                        </div>
+                        <h3>Modern Home Office</h3>
+                        <p class="portfolio-details">Sleek workspace with ergonomic design for maximum productivity and comfort.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>18 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="minimalist" data-aos="fade-up" data-aos-delay="500">
+                    <img src="bedroom.jpg" alt="Minimalist Bathroom">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Minimalist</span>
+                            <span class="portfolio-tag">Bathroom</span>
+                        </div>
+                        <h3>Minimalist Bathroom</h3>
+                        <p class="portfolio-details">Simple and elegant bathroom design with clean lines and calming atmosphere.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>12 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="traditional" data-aos="fade-up" data-aos-delay="600">
+                    <img src="dining.jpg" alt="Traditional Dining Room">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Traditional</span>
+                            <span class="portfolio-tag">Dining Room</span>
+                        </div>
+                        <h3>Traditional Dining Room</h3>
+                        <p class="portfolio-details">Classic elegance with rich wood tones and sophisticated decorative elements.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>30 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="bohemian" data-aos="fade-up" data-aos-delay="700">
+                    <img src="living.jpg" alt="Bohemian Living Space">
+                    <div class="portfolio-info">
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">Bohemian</span>
+                            <span class="portfolio-tag">Living Space</span>
+                        </div>
+                        <h3>Bohemian Living Space</h3>
+                        <p class="portfolio-details">Eclectic and vibrant design with rich textures, patterns, and global influences.</p>
+                        <div class="portfolio-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="portfolio-stats">
+                            <div class="portfolio-stat">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>48 m²</span>
+                            </div>
+                            <div class="portfolio-stat">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                        <a href="#" class="portfolio-view-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Design Gallery</h2>
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="gallery-filter active" data-filter="all">All Designs</button>
+                <button class="gallery-filter" data-filter="modern">Modern</button>
+                <button class="gallery-filter" data-filter="minimal">Minimal</button>
+                <button class="gallery-filter" data-filter="traditional">Traditional</button>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-aos="fade-up" data-category="modern">
+                        <img src="inter1.jpg" alt="Interior Design 1">
+                        <div class="swiper-caption">
+                            <h3>Modern Living Space</h3>
+                            <p>Contemporary design with elegant touches</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Modern</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="minimal" data-aos-delay="100">
+                        <img src="inter2.jpg" alt="Interior Design 2">
+                        <div class="swiper-caption">
+                            <h3>Minimalist Kitchen</h3>
+                            <p>Clean lines and functional design</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Minimal</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="modern" data-aos-delay="200">
+                        <img src="inter3.jpeg" alt="Interior Design 3">
+                        <div class="swiper-caption">
+                            <h3>Contemporary Office</h3>
+                            <p>Professional and inspiring workspace</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Modern</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="traditional" data-aos-delay="300">
+                        <img src="studio.jpg" alt="Studio Design">
+                        <div class="swiper-caption">
+                            <h3>Creative Studio</h3>
+                            <p>Traditional elements with modern comfort</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Traditional</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="minimal" data-aos-delay="400">
+                        <img src="office.jpg" alt="Office Space">
+                        <div class="swiper-caption">
+                            <h3>Modern Office</h3>
+                            <p>Minimalist office design</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Minimal</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="modern" data-aos-delay="500">
+                        <img src="bedroom.jpg" alt="Modern Bedroom">
+                        <div class="swiper-caption">
+                            <h3>Modern Bedroom</h3>
+                            <p>Contemporary comfort and style</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Modern</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="traditional" data-aos-delay="600">
+                        <img src="dining.jpg" alt="Traditional Dining">
+                        <div class="swiper-caption">
+                            <h3>Traditional Dining</h3>
+                            <p>Classic elegance and warmth</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Traditional</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-category="minimal" data-aos-delay="700">
+                        <img src="bathroom.jpg" alt="Minimal Bathroom">
+                        <div class="swiper-caption">
+                            <h3>Minimal Bathroom</h3>
+                            <p>Clean and serene design</p>
+                            <div class="gallery-tags">
+                                <span class="gallery-tag">Minimal</span>
+                                <span class="gallery-tag">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="gallery-preview" data-aos="fade-up">
+                <h3>Featured Designs</h3>
+                <div class="gallery-preview-grid">
+                    <div class="preview-item" data-category="modern">
+                        <img src="inter1.jpg" alt="Modern Design">
+                    </div>
+                    <div class="preview-item" data-category="minimal">
+                        <img src="inter2.jpg" alt="Minimal Design">
+                    </div>
+                    <div class="preview-item" data-category="traditional">
+                        <img src="dining.jpg" alt="Traditional Design">
+                    </div>
+                </div>
+            </div>
+                            <!-- JavaScript Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <!-- UI Interface Showcase -->
+    <section class="ui-interface" id="designs">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">UI Interface Showcase</h2>
+            <div class="interface-filters" data-aos="fade-up">
+                <button class="interface-filter active" data-filter="all">All</button>
+                <button class="interface-filter" data-filter="modern">Modern</button>
+                <button class="interface-filter" data-filter="minimal">Minimal</button>
+                <button class="interface-filter" data-filter="creative">Creative</button>
+            </div>
+            <div class="interface-grid">
+                <div class="interface-item" data-category="modern" data-aos="fade-up">
+                    <img src="studio3.jpg" alt="Modern Interface Design">
+                    <div class="interface-info">
+                        <h3>Modern Interface</h3>
+                        <p>Clean and contemporary design elements</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Modern</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interface-item" data-category="minimal" data-aos="fade-up" data-aos-delay="100">
+                    <img src="inter2.jpg" alt="Minimalist Interface">
+                    <div class="interface-info">
+                        <h3>Minimalist Design</h3>
+                        <p>Simple and elegant solutions</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Minimal</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interface-item" data-category="creative" data-aos="fade-up" data-aos-delay="200">
+                    <img src="inter3.jpeg" alt="Creative Interface">
+                    <div class="interface-info">
+                        <h3>Creative Elements</h3>
+                        <p>Innovative and inspiring designs</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Creative</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interface-item" data-category="modern" data-aos="fade-up" data-aos-delay="300">
+                    <img src="studio3.jpg" alt="Modern Studio Design">
+                    <div class="interface-info">
+                        <h3>Studio Design</h3>
+                        <p>Professional workspace solutions</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Modern</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interface-item" data-category="minimal" data-aos="fade-up" data-aos-delay="400">
+                    <img src="bedroom.jpg" alt="Minimal Bedroom">
+                    <div class="interface-info">
+                        <h3>Bedroom Design</h3>
+                        <p>Peaceful and minimal aesthetics</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Minimal</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interface-item" data-category="creative" data-aos="fade-up" data-aos-delay="500">
+                    <img src="office.jpg" alt="Creative Office">
+                    <div class="interface-info">
+                        <h3>Office Space</h3>
+                        <p>Creative and productive environment</p>
+                        <div class="interface-tags">
+                            <span class="interface-tag">Creative</span>
+                            <span class="interface-tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
